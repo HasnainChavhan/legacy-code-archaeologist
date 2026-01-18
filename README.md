@@ -2,7 +2,7 @@
 
 A GenAI-powered developer tool that explains, visualizes, and debugs old codebases using Gemini 1.5 Pro.
 
-## 🎯 Project Overview
+## Project Overview
 
 Legacy Code Archaeologist transforms static codebases into interactive knowledge graphs. Unlike standard coding assistants that only see the "current file," this solution leverages Gemini 1.5 Pro's massive 2M token context window to ingest entire repositories at once.
 
@@ -13,7 +13,7 @@ Legacy Code Archaeologist transforms static codebases into interactive knowledge
 - **Interactive Chat**: Natural language interface to explore codebases
 - **Beautiful UI**: Modern dark theme with glassmorphism effects and smooth animations
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (Python/FastAPI)
 - **Framework**: FastAPI for high-performance API
@@ -28,7 +28,7 @@ Legacy Code Archaeologist transforms static codebases into interactive knowledge
 - **Styling**: Tailwind CSS with custom dark theme
 - **Animations**: Framer Motion for smooth transitions
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ npm run dev
 
 Frontend will run at `http://localhost:3000`
 
-## 📖 Usage
+## Usage
 
 1. **Open the application** at `http://localhost:3000`
 2. **Enter a GitHub URL** (e.g., `https://github.com/facebook/react`)
@@ -95,7 +95,7 @@ Frontend will run at `http://localhost:3000`
 - "How does the payment processing work?"
 - "Map the user registration flow"
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 legacy-code-archaeologist/
@@ -125,7 +125,7 @@ legacy-code-archaeologist/
 └── README.md                   # This file
 ```
 
-## 🎨 Features in Detail
+## Features in Detail
 
 ### 1. Repository Analysis
 - Fetches up to 50 files from any public GitHub repository
@@ -150,7 +150,7 @@ legacy-code-archaeologist/
 - Responsive design
 - Loading states with visual feedback
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### POST `/api/analyze`
 Analyze a GitHub repository
@@ -195,7 +195,7 @@ Ask questions about the codebase
 }
 ```
 
-## 🌟 Tech Stack
+## Tech Stack
 
 - **Backend**: Python, FastAPI, PyGithub, Google Generative AI
 - **Frontend**: Next.js, React, TypeScript, Tailwind CSS
@@ -204,7 +204,7 @@ Ask questions about the codebase
 - **Animations**: Framer Motion
 - **Code Highlighting**: React Syntax Highlighter
 
-## 🚧 Production Deployment
+## Production Deployment
 
 ### Backend
 ```bash
@@ -228,7 +228,7 @@ For production, consider:
 - Implementing rate limiting
 - Adding authentication
 
-## 📝 Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 ```
@@ -241,7 +241,7 @@ GITHUB_TOKEN=your_github_token_optional
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This project was built for a hackathon. Contributions are welcome!
 
@@ -249,7 +249,7 @@ This project was built for a hackathon. Contributions are welcome!
 
 MIT License
 
-## 🎓 Hackathon Submission
+## Hackathon Submission
 
 **Title**: Legacy Code Archaeologist — The GenAI Technical Debt Solver
 
@@ -264,4 +264,4 @@ MIT License
 
 ---
 
-Built with ❤️ for developers who love archaeology
+Built with ❤️ for developers who love archaeology-Hasnain Chavhan
